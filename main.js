@@ -5,7 +5,8 @@ import * as THREE from 'three';
 //import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 //import * as dat from "dat.gui";
 //import { LineSegments, Vector3, WireframeGeometry } from "https://unpkg.com/three@0.138.0/build/three.module.js";
-import { LineSegments, Vector3, WireframeGeometry } from "three";
+import { LineSegments, Vector3, WireframeGeometry } from "https://unpkg.com/three@0.138.0/build/three.module.js";
+//import { LineSegments, Vector3, WireframeGeometry } from "three";
 
 //import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 //import { GLTFLoader } from "https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js";
