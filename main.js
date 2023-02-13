@@ -1,4 +1,4 @@
-import './style.css'
+//import './style.css'
 
 //import * as THREE from 'https://unpkg.com/three@0.138.0/build/three.module.js';
 import * as THREE from 'three';
@@ -244,7 +244,7 @@ light2.shadow.camera.far = 500; // default*/
 //XXXXXXXXXXXXXXXXXX Create debug XXXXXXXXXXXXXXXXXX
 function createDebugOjects() {
  // gui = new dat.GUI();
-  gridHelper = new THREE.GridHelper(50, 50);
+  //gridHelper = new THREE.GridHelper(50, 50);
  // scene.add(gridHelper);
   // gui.add(params, "anim");
   //gui.add(galparams, "paths").step(1);
