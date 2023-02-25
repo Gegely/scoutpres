@@ -103,15 +103,17 @@ main *{
 
 #userdatatable * h2{
   font-family: GegelyBold;
+  color: aqua;
   margin: 15px;
 }
 #userdatatable * h3{
   font-family: GegelyBetter;
-  
+  color: aqua;
 }
 
 .fade-in { animation: fadeIn 2s; }
-.fade-in-right { animation: fadeInRight 4s; }
+.fade-out { animation: fadeOut 1s; }
+.fade-in-right { animation: fadeInRight 2s; }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -165,15 +167,17 @@ padding: 20px;
 
 #torii h2{
   font-family: GegelyBold;
-  
+  color: aqua;
 }
 #torii h3{
   font-family: GegelyBetter;
+  color: aqua;
   
 }
 #torii p{
   font-family: GegelyText;
   font-size: x-large;
+  color: aqua;
 }
 
 
@@ -225,15 +229,16 @@ border-left: 2px solid aqua;
 
 #backpack h2{
   font-family: GegelyBold;
-  
+  color: aqua;
 }
 #backpack h3{
   font-family: GegelyBetter;
-  
+  color: aqua;
 }
 #backpack p{
   font-family: GegelyText;
   font-size: x-large;
+  color: aqua;
 }
 
 #backpackdatatable{
