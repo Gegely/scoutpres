@@ -84,6 +84,12 @@ main *{
   
 }
 
+#next{
+  background-color: rgb(80, 80, 80);
+  color: gray;
+  border-radius: 10px;
+  height: 20px;
+}
 #userbox {
   float: left;
   padding: 0px;

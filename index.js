@@ -137,6 +137,17 @@ css3drenderer.setSize( window.innerWidth, window.innerHeight );
         scene.add( objectCSS );
 				*/
   // loadeFiles();
+
+  document.getElementById("next").onclick = (event) =>{
+    if(scrollTime <= 0){
+      if(scrollLevel<4 ||( scrollLevel==4 && 1<0))
+        scrollTime = 2;
+      scrollLevel += 1;
+      if(scrollLevel<0) scrollLevel=0;
+      if(scrollLevel>=4) scrollLevel=4;
+    }
+  };
+
 }
 
 
