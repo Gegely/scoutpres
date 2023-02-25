@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  /* font-family: 'Poppins';*/
+}
+main *{
+  margin: 20px;
+  padding: 20px
+}
+.screensize{
+  height: 1600%;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -5;
+}
+
+#scrollProgress {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 99;
+  font-size: 3vh;
+  color: white;
+}
+
+#deltatime{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 3vh;
+  color: white;
+}
+
+
+#heighttest{
+  height: 500%;
+}
+
+/*  XXXXXXXXXXXXXXXXXX user XXXXXXXXXXXXXXXXXX  */
+
+@font-face {
+  font-family: GegelyBold;
+  src: url(./static/SuperMaizenRegular-axAwE.ttf);
+}
+@font-face {
+  font-family: GegelyBetter;
+  src: url(./static/TheRift-nRMM4.ttf);
+}
+@font-face {
+  font-family: GegelyText;
+  src: url(./static/Nitrogen-K7npW.ttf);
+}
+
+#user{
+  /*background-color: black;*/
+  height: 800px;
+  width: 800px;
+  align-self: center;
+  position: fixed;
+  top: calc(50% - 200px);
+  left: calc(50% - 350px);
+}
+
+#userimg{
+  padding: 10px;
+  float: left;
+  height: 300px;
+  width: 200px;
+  
+  margin: 20px;
+  border-right: 2px solid aqua;
+  border-top: 2px solid aqua;
+  
+}
+
+#userbox {
+  float: left;
+  padding: 0px;
+  width: 400px;
+  height: 320px;
+  /*background-color: #000000;*/
+  margin: 20px;
+  color: aqua;
+  border-left: 2px solid aqua;
+  border-top: 2px solid aqua;
+}
+
+#userdatatable{
+  padding-left: 20px;
+  
+}
+
+#userdatatable * h2{
+  font-family: GegelyBold;
+  margin: 15px;
+}
+#userdatatable * h3{
+  font-family: GegelyBetter;
+  
+}
+
+.fade-in { animation: fadeIn 2s; }
+.fade-in-right { animation: fadeInRight 4s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInRight {
+  0% { 
+    opacity: 0; 
+    transform: translateX(20px);
+    }
+  100% { opacity: 1; transform: translateX(0);}
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.invizible{
+ /* animation: fadeOut 0s;*/
+ opacity: 0;
+}
+
+
+.lefted{
+border-left: 2px solid aqua;
+  border-top: 2px solid aqua;
+}
+.righted{
+  border-right: 2px solid aqua;
+  border-top: 2px solid aqua;
+  
+}
+
+#torii{
+  /*background-color: rgb(97, 97, 97);*/
+
+  height: 200px;
+  width: 600px;
+color: aqua;
+
+margin: 20px;
+padding: 20px;
+
+
+  position: fixed;
+  top: calc(30% - 100px);
+  left: calc(30% - 300px);
+}
+
+#torii h2{
+  font-family: GegelyBold;
+  
+}
+#torii h3{
+  font-family: GegelyBetter;
+  
+}
+#torii p{
+  font-family: GegelyText;
+  font-size: x-large;
+}
+
+
+#campfire{
+  /*background-color: rgb(97, 97, 97);*/
+
+  height: 200px;
+  width: 600px;
+color: aqua;
+
+margin: 20px;
+padding: 20px;
+
+border-left: 2px solid aqua;
+  border-top: 2px solid aqua;
+
+  position: fixed;
+  top: calc(30% - 100px);
+  left: calc(20% - 300px);
+}
+
+#campfire h2{
+  font-family: GegelyBold;
+  
+}
+#campfire h3{
+  font-family: GegelyBetter;
+  
+}
+#campfire p{
+  font-family: GegelyText;
+  font-size: x-large;
+}
+
+#backpack{
+  height: 200px;
+  width: 600px;
+  color: aqua;
+
+  margin: 20px;
+  padding: 20px;
+  position: fixed;
+
+  
+  top: calc(30% - 100px);
+  left: calc(30% - 300px);
+}
+
+
+#backpack h2{
+  font-family: GegelyBold;
+  
+}
+#backpack h3{
+  font-family: GegelyBetter;
+  
+}
+#backpack p{
+  font-family: GegelyText;
+  font-size: x-large;
+}
+
+#backpackdatatable{
+  width: 100%;
+  
+}
+

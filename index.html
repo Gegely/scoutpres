@@ -1,0 +1,301 @@
+<!--DOCTYPE html-->
+<html lang="hu">
+  <head>
+    <!--script type="importmap">
+      {
+          "imports": {
+              //"three": "https://unpkg.com/three@0.138.0/build/three.module.js"
+              "three": "https://unpkg.com/three@0.149.0/build/three.js",
+              "GLTFLoader": "https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js"
+          }
+      }
+  </script-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gegely - Scout</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <span id="scrollProgress"></span>
+    <span id="deltatime"></span>
+    
+    <!--div class="screensize"></div-->
+
+    <div id="user" class="invizible">
+      <img src="" alt="" id="userimg">
+      <article id="userbox" class="lefted">
+          <table id="userdatatable">
+              <tr>
+                 <td>
+                      <h2>Lastname:</h2>
+                 </td> 
+                 <td>
+                      <h3>Széles</h3>
+                 </td>
+              </tr>
+              <tr>
+                  <td>
+                       <h2>Firstname:</h2>
+                  </td> 
+                  <td>
+                       <h3>Gergely</h3>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                       <h2>Scout team:</h2>
+                  </td> 
+                  <td>
+                       <h3>1019. sz. Csaba királyfi cserkészcsapat</h3>
+                  </td>
+               </tr>
+               <tr>
+                <td>
+                     <h2>Scout Mill:</h2>
+                </td> 
+                <td>
+                     <h3>Egerészölyv örs</h3>
+                </td>
+             </tr>
+          </table>
+          
+
+      </article>
+  </div>
+  
+  <div id="torii" class="invizible lefted">
+    <table id="userdatatable">
+        <tr>
+           <td>
+                <h2>Sport:</h2>
+           </td> 
+            <td width="5%"> <p> </p></td>
+            <td >
+                 <h3>Karate</h3>
+            </td>
+         </tr>
+    </table>
+    <p>
+        Kiskorom óta karatézom...
+    </p> 
+ </div>
+
+ <div id="campfire" class="invizible lefted">
+  <table id="userdatatable">
+      <!--tr>
+         <td>
+              <h2>Scout:</h2>
+         </td> 
+          <td width="5%"> <p> </p></td>
+          <td >
+               <h3>Karate</h3>
+          </td>
+       </tr-->
+       <tr>
+        <td>
+             <h2>Scout team:</h2>
+        </td> 
+        <td>
+             <h3>1019. sz. Csaba királyfi cserkészcsapat</h3>
+        </td>
+     </tr>
+     <tr>
+      <td>
+           <h2>Scout Mill:</h2>
+      </td> 
+      <td>
+           <h3>Egerészölyv örs</h3>
+      </td>
+   </tr>
+  </table>
+  <p>
+      Körülbelül nyolcadikos korom óta cserkészkedem, viszont csak nemrég lettem hivatalosan is cserkés. 
+  </p> 
+</div>
+
+
+<div id="backpack" class="invizible lefted">
+  <table id="backpackdatatable">
+      <tr>
+         <td>
+              <h2>Skills:</h2>
+         </td> 
+          <td width="5%"> <p> </p></td>
+          <td >
+               <h3></h3>
+          </td>
+          <td style="width: 40%;">
+            <h2></h2>
+          </td>
+       </tr>
+       <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Programozás</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:75%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+      <!--tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Videójátékok</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:50%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr-->
+      
+
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Csomózás</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:30%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Rossz Viccek</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:90%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Tűzrakás</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:20%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+      
+
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Szerelés</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:60%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3>Modellezés</h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:3%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3></h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:0%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td> 
+         <td width="5%"> <p> </p></td>
+         <td >
+              <h3></h3>
+         </td>
+         <td>
+          <div>
+            <div style="height:16px; width:0%; background-color: aqua;"></div>
+          </div>
+        </td>
+      </tr>
+
+
+       <!--tr>
+        <td>
+             <h2>Scout team:</h2>
+        </td> 
+        <td>
+             <h3>1019. sz. Csaba királyfi cserkészcsapat</h3>
+        </td>
+     </tr>
+     <tr>
+      <td>
+           <h2>Scout Mill:</h2>
+      </td> 
+      <td>
+           <h3>Egerészölyv örs</h3>
+      </td>
+   </tr-->
+  </table>
+  <!--p>
+      Körülbelül nyolcadikos korom óta cserkészkedem viszont csak nemrég lettem hivatalosan is cserkés.
+  </p--> 
+</div>
+
+<!--
+    <main id="heighttest">
+      
+      <h1>Valami Cím</h1>
+      <section>
+        <h2>Jejeje</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aperiam cupiditate! Deserunt, iste harum? Harum, nesciunt recusandae quia inventore, atque aperiam, molestias est laudantium at et eum sed exercitationem eaque.</p>
+      </section>
+      <section>
+        <h2>Jejeje</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aperiam cupiditate! Deserunt, iste harum? Harum, nesciunt recusandae quia inventore, atque aperiam, molestias est laudantium at et eum sed exercitationem eaque.</p>
+      </section>
+      <section>
+        <h2>Jejeje</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aperiam cupiditate! Deserunt, iste harum? Harum, nesciunt recusandae quia inventore, atque aperiam, molestias est laudantium at et eum sed exercitationem eaque.</p>
+      </section>
+    </main>-->
+
+
+    <canvas id="bg" class="webgl"></canvas>
+    <!--div id="container"></div-->
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
