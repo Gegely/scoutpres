@@ -47,7 +47,7 @@ let scrollTime =0;
 
 //############ IMAGES / TEXTURE / LOADED  ###############
 let starImg;
-
+let dev = false;
 
 
 //XXXXXXXXXXXXXXXXXXX MAIN XXXXXXXXXXXXXXXXXXXX
@@ -665,8 +665,17 @@ const tick = () => {
  // playScrollAnimations();
  ScrollAnim(deltaTime);
   scrollTime -= deltaTime;
-  document.getElementById('deltatime').innerText = 'Scrolltime : ' + scrollTime.toFixed(3);
+  if(dev){
+    document.getElementById('deltatime').innerText = 'Scrolltime : ' + scrollTime.toFixed(3);
   document.getElementById('scrollProgress').innerText = 'Level : ' + scrollLevel.toFixed(1);
+  document.getElementById('deltatime').style.opacity = 1;
+    document.getElementById('scrollProgress').style.opacity = 1;
+  }else{
+    document.getElementById('deltatime').style.opacity = 0;
+    document.getElementById('scrollProgress').style.opacity = 0;
+
+  }
+  
   //controls.update();
 
   renderer.render(scene, camera);
