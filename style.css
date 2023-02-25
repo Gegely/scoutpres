@@ -51,15 +51,15 @@ main *{
 
 @font-face {
   font-family: GegelyBold;
-  src: url(./static/SuperMaizenRegular-axAwE.ttf);
+  src: url(./assets/SuperMaizenRegular-axAwE.ttf);
 }
 @font-face {
   font-family: GegelyBetter;
-  src: url(./static/TheRift-nRMM4.ttf);
+  src: url(./assets/TheRift-nRMM4.ttf);
 }
 @font-face {
   font-family: GegelyText;
-  src: url(./static/Nitrogen-K7npW.ttf);
+  src: url(./assets/Nitrogen-K7npW.ttf);
 }
 
 #user{
